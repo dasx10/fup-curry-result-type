@@ -1,6 +1,6 @@
 {
   "name": "fup-curry-result-type",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "curry map helper",
   "main": "index.d.ts",
   "repository": {
@@ -14,5 +14,9 @@
   ],
   "author": "Yevhenii Kleshchev <dasx10@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/dasx10/fup-curry-result-type#readme"
+  "homepage": "https://github.com/dasx10/fup-curry-result-type#readme",
+  "dependencies": {
+    "fup-tuple-consistent-type": "^1.0.1",
+    "fup-tuple-impact-type": "^1.0.0"
+  }
 }

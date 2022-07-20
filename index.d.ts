@@ -8,9 +8,9 @@ type CurryResultType <
 > = TupleImpactType<Arguments, Parameters> extends readonly []
     ? Result
     : <NextArguments extends TupleConsistentType<TupleImpactType<Arguments, Parameters>>>(...nextParameters: NextArguments) => CurryResultType<
-        Result,
+        [...Arguments, ...NextArguments],
         Parameters,
-        [...Arguments, ...NextArguments]
+        Result
     >;
 
 export default CurryResultType;
