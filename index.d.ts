@@ -1,3 +1,6 @@
+import type TupleConsistentType from 'fup-tuple-consistent-type';
+import type TupleImpactType     from 'fup-tuple-impact-type';
+
 type CurryResultType <
     Arguments  extends readonly unknown[],
     Parameters extends readonly unknown[],

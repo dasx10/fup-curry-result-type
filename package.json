@@ -1,6 +1,6 @@
 {
   "name": "fup-curry-result-type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "curry map helper",
   "main": "index.d.ts",
   "repository": {
