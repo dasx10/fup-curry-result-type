@@ -11,6 +11,8 @@ type CurryResultType <
         [...Arguments, ...NextArguments],
         Parameters,
         Result
-    >;
+    > & {
+        length: NextArguments['length']
+    };
 
 export default CurryResultType;
